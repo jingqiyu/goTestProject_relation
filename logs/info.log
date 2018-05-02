@@ -1,0 +1,24 @@
+2018/04/28 12:14:07 [In GetUsers Slice Page:%d 2]
+2018/04/28 14:26:31 [In GetUsers Slice Page:%d 2]
+2018/04/28 14:26:31 [In GetUsers Slice Page:%d 2]
+2018/04/28 14:26:32 [In GetUsers Slice Page:%d 2]
+2018/04/28 16:52:23 /Users/didi/go/src/relation/models/userDao/user.go:23Error 1062: Duplicate entry '18789823222' for key 'phone'
+2018/04/28 16:53:17 /Users/didi/go/src/relation/models/userDao/user.go:23Error 1062: Duplicate entry '18789823222' for key 'phone'
+2018/04/28 16:53:49 /Users/didi/go/src/relation/models/userDao/user.go:23Error 1062: Duplicate entry '18789823222' for key 'phone'
+2018/04/28 16:55:03 /Users/didi/go/src/relation/models/userDao/user.go:23Error 1062: Duplicate entry '18789823222' for key 'phone'
+2018/04/28 16:55:48 /Users/didi/go/src/relation/models/userDao/user.go:23Error 1062: Duplicate entry '18789823222' for key 'phone'
+2018/04/28 16:56:10 /Users/didi/go/src/relation/models/userDao/user.go:23Error 1062: Duplicate entry '18789823222' for key 'phone'
+2018/04/28 16:59:39 /Users/didi/go/src/relation/models/userDao/user.go:23Error 1062: Duplicate entry '18789823222' for key 'phone'
+2018/04/28 17:00:21 /Users/didi/go/src/relation/models/userDao/user.go:23Error 1062: Duplicate entry '18789823222' for key 'phone'
+2018/04/28 17:01:09 /Users/didi/go/src/relation/models/userDao/user.go:23Error 1062: Duplicate entry '18789823222' for key 'phone'
+2018/04/28 17:02:00 /Users/didi/go/src/relation/models/userDao/user.go:23Error 1062: Duplicate entry '18789823222' for key 'phone'
+2018/04/28 17:07:39 /Users/didi/go/src/relation/models/userDao/user.go:24Error 1062: Duplicate entry '18789823222' for key 'phone'
+2018/04/28 17:07:41 /Users/didi/go/src/relation/models/userDao/user.go:24Error 1062: Duplicate entry '18789823222' for key 'phone'
+2018/04/28 17:07:41 /Users/didi/go/src/relation/models/userDao/user.go:24Error 1062: Duplicate entry '18789823222' for key 'phone'
+2018/05/02 10:59:43 [In GetUsers Slice Page:%d 2]
+2018/05/02 10:59:44 [In GetUsers Slice Page:%d 2]
+2018/05/02 10:59:45 [In GetUsers Slice Page:%d 2]
+2018/05/02 10:59:45 [In GetUsers Slice Page:%d 2]
+2018/05/02 10:59:46 [In GetUsers Slice Page:%d 2]
+2018/05/02 11:01:23 /Users/didi/go/src/relation/models/userDao/user.go:24Error 1406: Data too long for column 'password' at row 1
+2018/05/02 11:01:28 /Users/didi/go/src/relation/models/userDao/user.go:24Error 1406: Data too long for column 'password' at row 1

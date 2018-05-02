@@ -1,0 +1,3 @@
+package: relation
+import:
+- package: github.com/gin-gonic/gin
