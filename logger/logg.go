@@ -27,6 +27,7 @@ func InitLocalFileSystemLogger(maxAge,rotationTime time.Duration ) *log.Logger{
 	}
 	Log = log.New()
 	InfoLogPath := "logs/info1.log"
+	WarnLogPath := "logs/wf.log"
 	infoWriter,err := rotatelogs.New(
 		InfoLogPath + ".%Y%m%d%H%M",
 		rotatelogs.WithLinkName(InfoLogPath), // 生成软链，指向最新日志文件
@@ -37,14 +38,25 @@ func InitLocalFileSystemLogger(maxAge,rotationTime time.Duration ) *log.Logger{
 	if err != nil {
 		LogWarn("config local file system logger error. %+v", errors.WithStack(err))
 	}
+	warnWriter,err := rotatelogs.New(
+		WarnLogPath + ".%Y%m%d%H%M",
+		rotatelogs.WithLinkName(InfoLogPath), // 生成软链，指向最新日志文件
+		rotatelogs.WithMaxAge(maxAge), // 文件最大保存时间
+		rotatelogs.WithRotationTime(rotationTime), // 日志切割时间间隔
+	)
+
+	if err != nil {
+		LogWarn("config local file system logger error. %+v", errors.WithStack(err))
+	}
+
 
 	lfHook := lfshook.NewHook(lfshook.WriterMap{
 		log.DebugLevel: infoWriter, // 为不同级别设置不同的输出目的
 		log.InfoLevel:  infoWriter,
-		log.WarnLevel:  infoWriter,
-		log.ErrorLevel: infoWriter,
-		log.FatalLevel: infoWriter,
-		log.PanicLevel: infoWriter,
+		log.WarnLevel:  warnWriter,
+		log.ErrorLevel: warnWriter,
+		log.FatalLevel: warnWriter,
+		log.PanicLevel: warnWriter,
 	},&log.JSONFormatter{})
 	Log.AddHook(lfHook)
 	return Log
