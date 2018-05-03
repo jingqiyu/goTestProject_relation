@@ -11,6 +11,7 @@ import (
 	"relation/models/userDao"
 	"relation/util"
 	"strconv"
+	"github.com/sirupsen/logrus"
 )
 
 func GetUserById(c *gin.Context) {
@@ -154,6 +155,10 @@ func Login(c *gin.Context) {
 		c.JSON(http.StatusBadRequest, util.FailResponse(102,"login fail",nil))
 		return
 	}
+
+	log := logger.GetLogger()
+	cLog := log.WithFields(logrus.Fields{"Handler":"user"}) //定制化log
+	cLog.Info("A walrus appears",req)
 
 	db := db2.GetDB()
 	var user userDao.User
