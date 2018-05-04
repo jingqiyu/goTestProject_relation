@@ -12,6 +12,8 @@ import (
 	"relation/util"
 	"strconv"
 	"github.com/sirupsen/logrus"
+	"relation/logic/userLogic"
+	"relation/dto"
 )
 
 func GetUserById(c *gin.Context) {
@@ -158,23 +160,18 @@ func Login(c *gin.Context) {
 
 	log := logger.GetLogger()
 	cLog := log.WithFields(logrus.Fields{"Handler":"user"}) //定制化log
-	cLog.Info("A walrus appears",req)
-
+	cLog.Info("RequestParam:",req)
 	db := db2.GetDB()
-	var user userDao.User
-	var err error
 
-
-	user, err = userDao.GetUserByPhone(db,req.Phone)
-	if err != nil {
-		c.JSON(http.StatusOK, util.SuccessResponse(nil))
-	}
-
-	md5Password,_ := util.Md5(req.Password)
-	if md5Password != user.Password {
-		c.JSON(http.StatusOK, util.FailResponse(102,"login fail",nil))
+	dtoLogin := dto.ReqLogin{req.Phone,req.Password}
+	response := userLogic.Login(db,&dtoLogin)
+	if !isSuccess(response) {
+		c.JSON(http.StatusBadRequest,response)
 	} else {
-		c.JSON(http.StatusOK, util.SuccessResponse(nil))
+		c.JSON(http.StatusOK, response)
 	}
+}
 
+func isSuccess(response util.Response) bool {
+	return response.ErrNo == util.SUCCESS
 }
