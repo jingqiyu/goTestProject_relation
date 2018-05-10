@@ -115,12 +115,11 @@ func GetUserByPhone(c *gin.Context) {
 // 根据分页获取用户数据
 func GetUsersSlice(c *gin.Context) {
 
+	log := logger.GetLogger()
 	db := db2.GetDB()
-	var users []userDao.User
 	var err error
 	page, err := strconv.Atoi(c.DefaultQuery("page", "1"))
 
-	logger.LogInfo("In GetUsers Slice Page:%d", page)
 
 	if err != nil || page < 1 {
 		logger.LogWarn("page is Error:%d", page)
@@ -128,19 +127,9 @@ func GetUsersSlice(c *gin.Context) {
 		return
 	}
 
-	var (
-		start int
-		count int
-	)
-
-	count = 2 //todo
-	start = (page - 1) * count
-	users, err = userDao.GetUsersSlice(db, start, count)
-	if err != nil {
-		c.JSON(http.StatusOK, util.SuccessResponse(nil))
-	} else {
-		c.JSON(http.StatusOK, util.SuccessResponse(users))
-	}
+	dtoReq := dto.ReqGetUserBySlice{page}
+	log.Info(dtoReq)
+	c.JSON(http.StatusOK,userLogic.GetUsersByPage(db,&dtoReq))
 
 }
 
@@ -171,6 +160,7 @@ func Login(c *gin.Context) {
 		c.JSON(http.StatusOK, response)
 	}
 }
+
 
 func isSuccess(response util.Response) bool {
 	return response.ErrNo == util.SUCCESS
