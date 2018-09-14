@@ -121,6 +121,7 @@ func GetUsersSlice(c *gin.Context) {
 	page, err := strconv.Atoi(c.DefaultQuery("page", "1"))
 
 
+
 	if err != nil || page < 1 {
 		logger.LogWarn("page is Error:%d", page)
 		c.JSON(http.StatusOK, util.SuccessResponse(nil))
@@ -129,6 +130,7 @@ func GetUsersSlice(c *gin.Context) {
 
 	dtoReq := dto.ReqGetUserBySlice{page}
 	log.Info(dtoReq)
+	c.Header("Access-Control-Allow-Origin","*")
 	c.JSON(http.StatusOK,userLogic.GetUsersByPage(db,&dtoReq))
 
 }

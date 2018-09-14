@@ -8,7 +8,7 @@ import (
 )
 
 const(
-	PAGE_COUNT = 2
+	PAGE_COUNT = 10
 )
 
 func Login(db *gorm.DB,req *dto.ReqLogin) util.Response{
@@ -34,12 +34,18 @@ func GetUsersByPage(db *gorm.DB,req *dto.ReqGetUserBySlice) util.Response{
 		start int
 		count int
 	)
+	type responseGetUserByPage struct {
+		List []userDao.User `json:"list"`
+		Total int `json:"total"`
+	}
 	count = PAGE_COUNT
 	start = (req.Page - 1) * count
 	users, err := userDao.GetUsersSlice(db, start, count)
 	if err != nil {
 		return util.SuccessResponse(nil)
 	} else {
-		return util.SuccessResponse(users)
+		total := userDao.GetUsersTotal(db)
+		resp := responseGetUserByPage{List:users,Total:total}
+		return util.SuccessResponse(resp)
 	}
 }

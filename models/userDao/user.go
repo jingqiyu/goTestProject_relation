@@ -43,6 +43,12 @@ func GetUsersSlice(db *gorm.DB, start,count int)([]User, error){
 	return users, err
 }
 
+func GetUsersTotal(db *gorm.DB) int {
+	var count int
+	db.Model(&User{}).Count(&count) //Select count * from (TableName)
+	return count
+}
+
 func GetUserByPhone(db *gorm.DB, phoneNum int) (User,error) {
 	var user User
 	err := db.Where("phone = ?", phoneNum).First(&user).Error
