@@ -3,17 +3,18 @@ package user
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gin-gonic/gin"
-	"github.com/gomodule/redigo/redis"
 	"net/http"
 	db2 "relation/db"
+	"relation/dto"
 	"relation/logger"
+	"relation/logic/userLogic"
 	"relation/models/userDao"
 	"relation/util"
 	"strconv"
+
+	"github.com/gin-gonic/gin"
+	"github.com/gomodule/redigo/redis"
 	"github.com/sirupsen/logrus"
-	"relation/logic/userLogic"
-	"relation/dto"
 )
 
 func GetUserById(c *gin.Context) {
@@ -77,7 +78,7 @@ func CreateUserById(c *gin.Context) {
 	}
 
 	db := db2.GetDB()
-	resultUser, err  := userDao.CreateUser(db,&user)
+	resultUser, err := userDao.CreateUser(db, &user)
 	if err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
@@ -102,15 +103,14 @@ func GetUserByPhone(c *gin.Context) {
 	db := db2.GetDB()
 	var user userDao.User
 	var err error
-	phone,err := strconv.Atoi(c.DefaultQuery("phone","0"))
-	user, err = userDao.GetUserByPhone(db,phone)
+	phone, err := strconv.Atoi(c.DefaultQuery("phone", "0"))
+	user, err = userDao.GetUserByPhone(db, phone)
 	if err != nil {
 		c.JSON(http.StatusOK, util.SuccessResponse(nil))
 	} else {
 		c.JSON(http.StatusOK, util.SuccessResponse(user))
 	}
 }
-
 
 // 根据分页获取用户数据
 func GetUsersSlice(c *gin.Context) {
@@ -120,8 +120,6 @@ func GetUsersSlice(c *gin.Context) {
 	var err error
 	page, err := strconv.Atoi(c.DefaultQuery("page", "1"))
 
-
-
 	if err != nil || page < 1 {
 		logger.LogWarn("page is Error:%d", page)
 		c.JSON(http.StatusOK, util.SuccessResponse(nil))
@@ -130,40 +128,48 @@ func GetUsersSlice(c *gin.Context) {
 
 	dtoReq := dto.ReqGetUserBySlice{page}
 	log.Info(dtoReq)
-	c.Header("Access-Control-Allow-Origin","*")
-	c.JSON(http.StatusOK,userLogic.GetUsersByPage(db,&dtoReq))
+	c.Header("Access-Control-Allow-Origin", "*")
+	c.JSON(http.StatusOK, userLogic.GetUsersByPage(db, &dtoReq))
 
 }
 
 func Login(c *gin.Context) {
 
 	type request struct {
-		Phone int `json:"phone" form:"phone" binding:"required"`
+		Phone    int    `json:"phone" form:"phone" binding:"required"`
 		Password string `json:"password" form:"password" binding:"required"`
 	}
 
 	var req request
 	if err := c.ShouldBind(&req); err != nil {
-		logger.LogError("Request Param Error req : %V",req)
-		c.JSON(http.StatusBadRequest, util.FailResponse(102,"login fail",nil))
+		logger.LogError("Request Param Error req : %V", req)
+		c.JSON(http.StatusBadRequest, util.FailResponse(102, "login fail", nil))
 		return
 	}
 
 	log := logger.GetLogger()
-	cLog := log.WithFields(logrus.Fields{"Handler":"user"}) //定制化log
-	cLog.Info("RequestParam:",req)
+	cLog := log.WithFields(logrus.Fields{"Handler": "user"}) //定制化log
+	cLog.Info("RequestParam:", req)
 	db := db2.GetDB()
 
-	dtoLogin := dto.ReqLogin{req.Phone,req.Password}
-	response := userLogic.Login(db,&dtoLogin)
+	dtoLogin := dto.ReqLogin{req.Phone, req.Password}
+	response := userLogic.Login(db, &dtoLogin)
 	if !isSuccess(response) {
-		c.JSON(http.StatusBadRequest,response)
+		c.JSON(http.StatusBadRequest, response)
 	} else {
 		c.JSON(http.StatusOK, response)
 	}
 }
 
-
 func isSuccess(response util.Response) bool {
 	return response.ErrNo == util.SUCCESS
+}
+
+func ToCheck(c *gin.Context) {
+	buf := make([]byte,1024)
+	n,_ := c.Request.Body.Read(buf)
+	log := logger.GetLogger()
+	cLog := log.WithFields(logrus.Fields{"Handler": "user"}) //定制化log
+	cLog.Info("RequestParam:", string(buf[0:n]))
+	c.JSON(http.StatusOK,buf[0:n])
 }
