@@ -2,8 +2,1129 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52bfc1a7-efe7-4688-bb72-2f287d84c68a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/glide.lock" afterPath="$PROJECT_DIR$/glide.lock" />
+      <change beforePath="$PROJECT_DIR$/glide.yaml" afterPath="$PROJECT_DIR$/glide.yaml" />
       <change beforePath="$PROJECT_DIR$/handlers/user/userHandler.go" afterPath="$PROJECT_DIR$/handlers/user/userHandler.go" />
-      <change beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/.travis.yml" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/AUTHORS.md" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/AUTHORS.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/CHANGELOG.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/Makefile" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/Makefile" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/README.md" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/README.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/auth.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/auth.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/auth_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/auth_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/benchmarks_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/benchmarks_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/binding.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/binding.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/binding_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/binding_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/default_validator.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/default_validator.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/example/test.pb.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/example/test.proto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/form_mapping.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/form_mapping.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/json.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/json.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/msgpack.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/msgpack.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/protobuf.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/protobuf.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/validate_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/validate_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/xml.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/xml.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/context.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/context.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/context_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/context_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/coverage.sh" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/coverage.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/debug.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/debug.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/debug_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/debug_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/errors_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/errors_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/app-engine/README.md" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/app-engine/README.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/basic/main.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/basic/main.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/basic/main_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/basic/main_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/custom-validation/server.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/custom-validation/server.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/favicon/main.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/favicon/main.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/graceful-shutdown/graceful-shutdown/server.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/graceful-shutdown/graceful-shutdown/server.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/http2/main.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/http2/main.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-advanced/routes.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-advanced/routes.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-chat/main.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-chat/main.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/template/main.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/template/main.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/fixtures/basic/hello.tmpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/fixtures/basic/raw.tmpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/fixtures/testdata/cert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/fixtures/testdata/key.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/gin.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/gin.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/ginS/gins.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/ginS/gins.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/gin_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/gin_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/githubapi_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/githubapi_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/logger.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/logger.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/logger_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/logger_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/middleware_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/middleware_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/mode.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/mode.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/mode_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/mode_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/path.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/path.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/path_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/path_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/recovery.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/recovery.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/recovery_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/recovery_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/json.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/json.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/redirect.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/redirect.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/render.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/render.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/render_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/render_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/response_writer.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/response_writer.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/response_writer_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/response_writer_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/routergroup.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/routergroup.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/routergroup_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/routergroup_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/routes_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/routes_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/test_helpers.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/test_helpers.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/tree.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/tree.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/utils.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/utils.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/utils_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/utils_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/vendor/vendor.json" afterPath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/vendor/vendor.json" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/.gitignore" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/.travis.yml" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/AUTHORS" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/AUTHORS" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/CHANGELOG.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/README.md" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/README.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/appengine.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/appengine.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/benchmark_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/benchmark_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/buffer.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/buffer.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/collations.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/collations.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/connection.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/connection.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/const.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/const.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/driver.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/driver.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/driver_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/driver_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/dsn.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/dsn.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/dsn_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/dsn_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/errors.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/errors.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/infile.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/infile.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/packets.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/packets.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/packets_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/packets_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/rows.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/rows.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/statement.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/statement.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/transaction.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/transaction.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/utils.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/utils.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/utils_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/utils_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/.gitignore" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/.travis.yml" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/LICENSE" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/Make.protobuf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/Makefile" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/Makefile" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/README.md" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/README.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/_conformance/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/_conformance/conformance.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/_conformance/conformance_proto/conformance.pb.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/_conformance/conformance_proto/conformance.proto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/descriptor/descriptor_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/descriptor/descriptor_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/jsonpb/jsonpb.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/jsonpb/jsonpb.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/jsonpb/jsonpb_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/jsonpb/jsonpb_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/jsonpb/jsonpb_test_proto/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/jsonpb/jsonpb_test_proto/more_test_objects.pb.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/jsonpb/jsonpb_test_proto/more_test_objects.pb.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/jsonpb/jsonpb_test_proto/test_objects.pb.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/jsonpb/jsonpb_test_proto/test_objects.pb.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/jsonpb/jsonpb_test_proto/test_objects.proto" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/jsonpb/jsonpb_test_proto/test_objects.proto" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/all_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/all_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/any_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/any_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/clone.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/clone.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/clone_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/clone_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/decode.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/decode.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/decode_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/decode_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/encode.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/encode.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/equal.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/equal.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/equal_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/equal_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/extensions.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/extensions.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/extensions_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/extensions_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/lib.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/lib.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/map_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/map_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/message_set.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/message_set.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/message_set_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/message_set_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/pointer_reflect.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/pointer_reflect.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/pointer_unsafe.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/pointer_unsafe.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/properties.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/properties.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/proto3_proto/proto3.pb.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/proto3_proto/proto3.pb.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/proto3_proto/proto3.proto" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/proto3_proto/proto3.proto" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/proto3_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/proto3_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/size2_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/size2_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/size_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/size_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/testdata/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/testdata/golden_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/testdata/test.pb.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/testdata/test.proto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/text.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/text.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/text_parser.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/text_parser.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/text_parser_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/text_parser_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/text_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/text_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/descriptor/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/descriptor/descriptor.pb.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/descriptor/descriptor.pb.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/descriptor/descriptor.proto" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/descriptor/descriptor.proto" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/generator/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/generator/generator.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/generator/generator.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/generator/name_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/generator/name_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/grpc/grpc.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/grpc/grpc.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/plugin/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/plugin/plugin.pb.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/plugin/plugin.pb.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/extension_base.proto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/extension_extra.proto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/extension_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/extension_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/extension_user.proto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/grpc.proto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/imp.pb.go.golden" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/imp.proto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/imp2.proto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/imp3.proto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/main_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/main_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/multi/multi1.proto" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/multi/multi1.proto" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/multi/multi2.proto" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/multi/multi2.proto" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/multi/multi3.proto" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/multi/multi3.proto" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/my_test/test.pb.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/my_test/test.pb.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/my_test/test.pb.go.golden" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/my_test/test.proto" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/my_test/test.proto" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/testdata/proto3.proto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/any.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/any.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/any/any.pb.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/any/any.pb.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/any_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/any_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/duration/duration.pb.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/duration/duration.pb.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/empty/empty.pb.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/empty/empty.pb.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/regen.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/struct/struct.pb.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/struct/struct.pb.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/timestamp/timestamp.pb.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/timestamp/timestamp.pb.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/timestamp/timestamp.proto" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/timestamp/timestamp.proto" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/wrappers/wrappers.pb.go" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/ptypes/wrappers/wrappers.pb.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/configor/README.md" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/configor/README.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/configor/configor.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/configor/configor.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/configor/configor_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/configor/configor_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/configor/utils.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/configor/utils.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/CONTRIBUTING.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/README.md" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/README.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/association.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/association.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/association_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/association_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_create.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_create.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_delete.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_delete.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_query.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_query.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_query_preload.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_query_preload.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_save.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_save.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_update.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_update.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/create_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/create_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/customize_column_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/customize_column_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/delete_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/delete_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_common.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_common.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_mysql.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_mysql.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_postgres.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_postgres.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_sqlite3.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_sqlite3.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialects/mssql/mssql.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialects/mssql/mssql.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialects/postgres/postgres.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialects/postgres/postgres.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/embedded_struct_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/embedded_struct_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/errors.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/errors.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/interface.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/interface.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/join_table_handler.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/join_table_handler.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/join_table_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/join_table_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/logger.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/logger.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/main.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/main.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/main_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/main_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/migration_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/migration_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/model_struct.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/model_struct.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/multi_primary_keys_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/multi_primary_keys_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/polymorphic_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/polymorphic_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/preload_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/preload_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/query_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/query_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/scaner_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/scaner_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/scope.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/scope.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/scope_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/scope_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/search.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/search.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/test_all.sh" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/test_all.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/update_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/update_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/utils.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/utils.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/utils_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/utils_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/README.md" afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/README.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/Gopkg.lock" afterPath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/Gopkg.lock" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/Gopkg.toml" afterPath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/Gopkg.toml" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/README.md" afterPath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/README.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/api_tests/decoder_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/api_tests/decoder_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/compatible_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/example_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/example_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/extra/fuzzy_decoder.go" afterPath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/extra/fuzzy_decoder.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/extra/fuzzy_decoder_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/extra/fuzzy_decoder_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/extra/naming_strategy.go" afterPath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/extra/naming_strategy.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/extra/naming_strategy_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/extra/naming_strategy_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/extra/privat_fields.go" afterPath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/extra/privat_fields.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/extra/time_as_int64_codec.go" afterPath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/extra/time_as_int64_codec.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_adapter.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_any.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_any_array.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_any_bool.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_any_float.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_any_int32.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_any_int64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_any_invalid.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_any_nil.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_any_number.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_any_object.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_any_string.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_any_uint32.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_any_uint64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_config.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_config_with_sync_map.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_config_without_sync_map.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_iter.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_iter_array.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_iter_float.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_iter_int.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_iter_object.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_iter_skip.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_iter_skip_sloppy.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_iter_skip_strict.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_iter_string.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_json_number.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_pool.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_reflect.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_reflect_array.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_reflect_extension.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_reflect_map.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_reflect_native.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_reflect_object.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_reflect_optional.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_reflect_slice.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_reflect_struct_decoder.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_stream.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_stream_float.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_stream_int.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/feature_stream_string.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_1dot8_only_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_adapter_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_alias_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_any_array_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_any_bool_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_any_float_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_any_int_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_any_map_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_any_null_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_any_object_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_any_string_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_array_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_bool_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_customize_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_demo_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_encode_interface_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_enum_marshaler_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_fixed_array_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_float_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_int_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_interface_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_invalid_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_io_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_iterator_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_large_file_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_map_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_must_be_valid_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_nested_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_null_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_object_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_optional_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_raw_message_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_reader_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_reflect_native_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_skip_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_sloppy_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_stream_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_string_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_struct_decoder_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_struct_encoder_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/jsoniter_wrap_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/array/bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/array/bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/array/byte/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/array/byte/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/array/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/array/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/array/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/array/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/array/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/array/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/array/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/array/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/array/uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/array/uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/byte/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/byte/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/map/int32_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/map/int32_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/map/string_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/map/string_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_map/int32_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_map/int32_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_map/string_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_map/string_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_slice/bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_slice/bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_slice/byte/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_slice/byte/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_slice/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_slice/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_slice/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_slice/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_slice/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_slice/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_slice/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_slice/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_slice/uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_slice/uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_struct_various/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_struct_various/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/ptr_uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/slice/bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/slice/bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/slice/byte/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/slice/byte/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/slice/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/slice/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/slice/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/slice/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/slice/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/slice/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/slice/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/slice/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/slice/uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/slice/uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/struct_empty/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/struct_empty/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/struct_empty_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/struct_empty_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/struct_ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/struct_ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/struct_various/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/struct_various/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/array/uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/bool_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/bool_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/byte/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/byte/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/byte_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/byte_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/float32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/float32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/float32_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/float32_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/float64_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/float64_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/int16/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/int16/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/int16_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/int16_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/int32_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/int32_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/int64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/int64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/int8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/int8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/int8_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/int8_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/string_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/string_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/uint16/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/uint16/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/uint16_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/uint16_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/uint32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/uint32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/uint32_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/uint32_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/uint8_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/uint8_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/uintptr/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/builtins/uintptr/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/caseless_unmarshal/caseless_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/caseless_unmarshal/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/json_marshal/string_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/json_marshal/string_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/json_marshal/struct/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/json_marshal/struct/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/json_marshal/struct_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/json_marshal/struct_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/json_marshal/struct_field/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/json_marshal/struct_field/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/json_marshal/struct_field_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/json_marshal/struct_field_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/int16/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/int16/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/int32/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/int32/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/int64/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/int64/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/int8/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/int8/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/array_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/array_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/byte/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/byte/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/map_string_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/map_string_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_array_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_array_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_map_string_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_map_string_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_slice_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_slice_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_struct_various/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_struct_various/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/ptr_uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/slice_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/slice_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/string_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/string_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/struct_empty/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/struct_empty/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/struct_empty_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/struct_empty_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/struct_ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/struct_ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/struct_various/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/struct_various/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string/uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string_alias/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string_alias/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string_alias/string_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/string_alias/string_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/uint16/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/uint16/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/uint32/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/uint32/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/uint8/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map/uint8/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map_key_text_marshal/string_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map_key_text_marshal/string_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map_key_text_marshal/struct/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/map_key_text_marshal/struct/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/marshal_fail_case.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/partial_unmarshal/partial_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/partial_unmarshal/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/array/bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/array/bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/array/byte/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/array/byte/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/array/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/array/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/array/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/array/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/array/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/array/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/array/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/array/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/array/uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/array/uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/byte/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/byte/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/int64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/int64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/map/int32_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/map/int32_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/map/string_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/map/string_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_array/bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_array/bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_array/byte/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_array/byte/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_array/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_array/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_array/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_array/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_array/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_array/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_array/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_array/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_array/uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_array/uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_map/int32_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_map/int32_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_map/string_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_map/string_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_slice/bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_slice/bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_slice/byte/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_slice/byte/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_slice/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_slice/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_slice/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_slice/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_slice/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_slice/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_slice/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_slice/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_slice/uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_slice/uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_struct_various/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_struct_various/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/ptr_uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/slice/bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/slice/bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/slice/byte/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/slice/byte/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/slice/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/slice/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/slice/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/slice/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/slice/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/slice/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/slice/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/slice/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/slice/uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/slice/uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/struct_empty/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/struct_empty/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/struct_empty_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/struct_empty_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/struct_ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/struct_ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/struct_various/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/struct_various/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/slice/uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/json_marshal/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/json_marshal/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/map_string_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/map_string_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/ptr_float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/ptr_float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/ptr_int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/ptr_int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/ptr_map_string_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/ptr_map_string_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/ptr_slice_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/ptr_slice_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/ptr_struct_various/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/ptr_struct_various/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/slice_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/slice_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/string_with_tag/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/string_with_tag/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/struct_various/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/struct_various/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/text_marshal/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/no_overlap/text_marshal/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/different_levels/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/different_levels/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/ignore_deeper_level/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/ignore_deeper_level/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/same_level_1_both_tagged/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/same_level_1_both_tagged/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/same_level_1_no_tags/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/same_level_1_no_tags/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/same_level_1_tagged/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/same_level_1_tagged/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/same_level_2_both_tagged/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/same_level_2_both_tagged/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/same_level_2_no_tags/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/same_level_2_no_tags/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/same_level_2_tagged/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/anonymous/overlap/same_level_2_tagged/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/array/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/array/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/array/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/array/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/array/string_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/array/string_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/array/strings/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/array/strings/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/array/struct_strings/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/array/struct_strings/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/empty/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/empty/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/empty_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/empty_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/everything/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/everything/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/float64_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/float64_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/float64s/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/float64s/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/float64s_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/float64s_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/int32_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/int32_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/int32s/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/int32s/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/int32s_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/int32s_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/int64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/int64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/map/int32_ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/map/int32_ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/map/int32_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/map/int32_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/map/int32_struct_strings/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/map/int32_struct_strings/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/map/string_ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/map/string_ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/map/string_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/map/string_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/map/string_struct_strings/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/map/string_struct_strings/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_float64_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_float64_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_int32_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_int32_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_ptr_struct_empty/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_ptr_struct_empty/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_ptr_struct_strings/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_ptr_struct_strings/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_string_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_string_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_struct_empty/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_struct_empty/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_struct_strings/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptr_struct_strings/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptrs_float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptrs_float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptrs_int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptrs_int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptrs_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/ptrs_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/slice/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/slice/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/slice/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/slice/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/slice/string_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/slice/string_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/slice/strings/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/slice/strings/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/slice/struct_strings/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/slice/struct_strings/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/string_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/string_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/strings/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/strings/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/strings_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/strings_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/empties/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/empties/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/empty/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/empty/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/empty_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/empty_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/float32s/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/float32s/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/float64_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/float64_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/int32s/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/int32s/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/strings/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/strings/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/strings_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct/struct/strings_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/fieldname/embedded/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/fieldname/embedded/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/fieldname/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/fieldname/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/fieldname/struct/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/fieldname/struct/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/embedded/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/embedded/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/float32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/float32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/map_string_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/map_string_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_float32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_float32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_map_string_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_map_string_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_slice_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_slice_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_string/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_string/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_string_json_marshal/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_string_json_marshal/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_string_text_marshal/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_string_text_marshal/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_struct_json_marshal/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_struct_json_marshal/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_struct_text_marshal/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_struct_text_marshal/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_uint32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/ptr_uint32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/slice_string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/slice_string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/string_json_marshal/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/string_json_marshal/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/string_text_marshal/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/string_text_marshal/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/struct/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/struct/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/struct_json_marshal/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/struct_json_marshal/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/struct_text_marshal/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/struct_text_marshal/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/uint32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/omitempty/uint32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/bool/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/bool/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/byte/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/byte/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/float32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/float32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/float64/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/float64/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/int16/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/int16/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/int32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/int32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/int8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/int8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/string/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/string/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/uint16/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/uint16/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/uint32/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/uint32/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/uint8/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/struct_tags/string/uint8/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/text_marshal/string_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/text_marshal/string_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/text_marshal/struct/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/text_marshal/struct/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/text_marshal/struct_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/text_marshal/struct_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/text_marshal/struct_field/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/text_marshal/struct_field/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/text_marshal/struct_field_alias/json_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/output_tests/text_marshal/struct_field_alias/types.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/skip_tests/array/inputs.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/skip_tests/array/skip_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/skip_tests/number/inputs.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/skip_tests/number/skip_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/skip_tests/object/inputs.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/skip_tests/object/skip_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/skip_tests/string/inputs.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/skip_tests/string/skip_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/test.sh" afterPath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/test.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/json-iterator/go/unmarshal_input_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/.travis.yml" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/README.md" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/README.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/0doc.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/0doc.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/binc.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/binc.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/cbor.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/cbor.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/codec_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/codec_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/decode.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/decode.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/encode.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/encode.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/gen-dec-array.go.tmpl" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/gen-dec-array.go.tmpl" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/gen.generated.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/gen.generated.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/gen.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/gen.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/helper.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/helper.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/helper_unsafe.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/helper_unsafe.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/json.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/json.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/mammoth2_codecgen_generated_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/mammoth2_codecgen_generated_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/msgpack.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/msgpack.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/rpc.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/rpc.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/simple.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/simple.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/values_flex_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/values_flex_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/z_all_test.go" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/z_all_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/CONTRIBUTING.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/plan9/mkerrors.sh" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/plan9/mkerrors.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/plan9/mksyscall.pl" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/plan9/mksyscall.pl" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/plan9/syscall.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/plan9/syscall.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/plan9/syscall_plan9.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/plan9/syscall_plan9.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/plan9/zsyscall_plan9_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/plan9/zsyscall_plan9_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/plan9/zsyscall_plan9_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/plan9/zsyscall_plan9_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/affinity_linux.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/affinity_linux.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/cap_freebsd.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/cap_freebsd.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/constants.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/constants.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/creds_test.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/creds_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/dev_darwin_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/dev_dragonfly_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/dev_linux_test.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/dev_linux_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/dev_netbsd_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/dev_openbsd_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/dev_solaris_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/dirent.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/dirent.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/env_unix.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/env_unix.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/export_test.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/export_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/flock.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/flock_linux_32bit.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/gccgo.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/gccgo.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/gccgo_c.c" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/gccgo_c.c" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/linux/Dockerfile" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/linux/Dockerfile" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/linux/mkall.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/linux/mkall.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/linux/types.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/linux/types.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mkall.sh" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mkall.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mkerrors.sh" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mkerrors.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mkpost.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mkpost.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksyscall.pl" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksyscall.pl" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysnum_freebsd.pl" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mksysnum_freebsd.pl" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mmap_unix_test.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/mmap_unix_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/openbsd_pledge.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/openbsd_pledge.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/openbsd_test.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/openbsd_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/pagesize_unix.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/pagesize_unix.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/race0.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/race0.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/sockcmsg_unix.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/sockcmsg_unix.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/str.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/str.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_bsd.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_bsd.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_darwin.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_darwin.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_dragonfly.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_dragonfly.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_freebsd.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_freebsd.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_freebsd_test.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_freebsd_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_arm64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_arm64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_mips64x.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_mips64x.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_mipsx.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_mipsx.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_ppc64x.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_ppc64x.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_s390x.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_s390x.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_sparc64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_sparc64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_test.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_linux_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_netbsd.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_netbsd.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_openbsd.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_openbsd.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_openbsd_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_openbsd_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_solaris.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_solaris.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_solaris_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_solaris_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_test.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_unix.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_unix.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_unix_test.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/syscall_unix_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/timestruct.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/timestruct.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/timestruct_test.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/timestruct_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/types_dragonfly.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/types_dragonfly.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/types_freebsd.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/types_freebsd.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/types_netbsd.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/types_netbsd.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/types_openbsd.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/types_openbsd.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/types_solaris.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/types_solaris.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_darwin_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_darwin_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_darwin_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_darwin_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_darwin_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_darwin_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_darwin_arm64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_darwin_arm64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_dragonfly_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_dragonfly_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_freebsd_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_freebsd_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_freebsd_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_freebsd_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_freebsd_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_freebsd_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_arm64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_arm64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_mips.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_mips.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_mips64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_mips64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_mips64le.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_mips64le.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_mipsle.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_mipsle.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_ppc64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_ppc64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_ppc64le.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_ppc64le.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_s390x.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_s390x.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_sparc64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_linux_sparc64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_netbsd_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_netbsd_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_netbsd_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_netbsd_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_netbsd_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_netbsd_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_openbsd_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_openbsd_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_openbsd_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_openbsd_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_openbsd_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_openbsd_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_solaris_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zerrors_solaris_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_darwin_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_darwin_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_darwin_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_darwin_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_darwin_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_darwin_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_darwin_arm64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_darwin_arm64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_dragonfly_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_dragonfly_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_freebsd_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_freebsd_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_freebsd_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_freebsd_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_freebsd_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_freebsd_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_arm64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_arm64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_mips.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_mips.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_mips64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_mips64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_mips64le.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_mips64le.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_mipsle.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_mipsle.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64le.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64le.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_s390x.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_s390x.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_sparc64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_linux_sparc64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_netbsd_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_netbsd_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_netbsd_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_netbsd_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_netbsd_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_netbsd_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_openbsd_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_openbsd_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_openbsd_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_openbsd_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_openbsd_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_openbsd_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_solaris_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsyscall_solaris_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysctl_openbsd_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysctl_openbsd_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysctl_openbsd_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysctl_openbsd_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysctl_openbsd_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysctl_openbsd_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_freebsd_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_freebsd_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_freebsd_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_freebsd_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_freebsd_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_freebsd_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_arm64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_arm64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_mips.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_mips.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_mips64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_mips64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_mips64le.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_mips64le.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_mipsle.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_mipsle.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_ppc64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_ppc64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_ppc64le.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_ppc64le.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_s390x.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_s390x.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_sparc64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_linux_sparc64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_netbsd_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_netbsd_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_netbsd_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_netbsd_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_netbsd_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_netbsd_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_openbsd_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_openbsd_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_openbsd_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_openbsd_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_openbsd_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/zsysnum_openbsd_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_darwin_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_darwin_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_darwin_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_darwin_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_darwin_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_darwin_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_darwin_arm64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_darwin_arm64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_dragonfly_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_dragonfly_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_freebsd_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_freebsd_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_freebsd_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_freebsd_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_freebsd_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_freebsd_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_arm64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_arm64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_mips.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_mips.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_mips64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_mips64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_mips64le.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_mips64le.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_mipsle.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_mipsle.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_ppc64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_ppc64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_ppc64le.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_ppc64le.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_s390x.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_s390x.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_sparc64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_linux_sparc64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_netbsd_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_netbsd_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_netbsd_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_netbsd_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_netbsd_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_netbsd_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_openbsd_386.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_openbsd_386.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_openbsd_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_openbsd_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_openbsd_arm.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_openbsd_arm.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_solaris_amd64.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/unix/ztypes_solaris_amd64.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/asm_windows_386.s" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/asm_windows_386.s" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/asm_windows_amd64.s" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/asm_windows_amd64.s" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/registry/key.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/registry/key.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/registry/registry_test.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/registry/registry_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/registry/zsyscall_windows.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/registry/zsyscall_windows.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/security_windows.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/security_windows.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/service.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/service.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/debug/service.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/debug/service.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/example/service.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/example/service.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/mgr/config.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/mgr/config.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/mgr/mgr_test.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/mgr/mgr_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/service.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/service.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/svc_test.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/svc_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/sys_amd64.s" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/sys_amd64.s" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/syscall.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/syscall.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/syscall_windows.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/syscall_windows.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/syscall_windows_test.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/syscall_windows_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/types_windows.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/types_windows.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/zsyscall_windows.go" afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/zsyscall_windows.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/go-playground/validator.v8/README.md" afterPath="$PROJECT_DIR$/vendor/gopkg.in/go-playground/validator.v8/README.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/go-playground/validator.v8/validator_test.go" afterPath="$PROJECT_DIR$/vendor/gopkg.in/go-playground/validator.v8/validator_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/.travis.yml" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/README.md" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/README.md" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/apic.go" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/apic.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/decode.go" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/decode.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/decode_test.go" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/decode_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/emitterc.go" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/emitterc.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/encode.go" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/encode.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/encode_test.go" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/encode_test.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/readerc.go" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/readerc.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/resolve.go" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/resolve.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/scannerc.go" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/scannerc.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/sorter.go" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/sorter.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/writerc.go" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/writerc.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yaml.go" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yaml.go" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yamlh.go" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yamlh.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +1141,68 @@
       <file leaf-file-name="userHandler.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/handlers/user/userHandler.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="169" column="35" lean-forward="true" selection-start-line="169" selection-start-column="35" selection-end-line="169" selection-end-column="35" />
+            <state relative-caret-position="592">
+              <caret line="175" column="31" lean-forward="false" selection-start-line="175" selection-start-column="31" selection-end-line="175" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="io.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/io/io.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="77" column="4" lean-forward="false" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default_validator.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/default_validator.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logg.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logger/logg.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/info.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info1.log.201809171900" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/info1.log.201809171900">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="glide.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/glide.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -30,18 +1211,8 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dtoGetUserBySlice.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dto/dtoGetUserBySlice.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="384">
+              <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -60,22 +1231,10 @@
       <file leaf-file-name="user.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/userDao/user.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="618">
+              <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
               <folding>
                 <element signature="e#17#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userLogin.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logic/userLogic/userLogin.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="44" column="40" lean-forward="false" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-              <folding>
-                <element signature="e#19#115#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,6 +1289,7 @@
         <option value="$PROJECT_DIR$/models/userDao/user.go" />
         <option value="$PROJECT_DIR$/logic/userLogic/userLogin.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/glide.yaml" />
         <option value="$PROJECT_DIR$/handlers/user/userHandler.go" />
       </list>
     </option>
@@ -141,9 +1301,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
+    <option name="x" value="53" />
     <option name="y" value="33" />
-    <option name="width" value="1870" />
+    <option name="width" value="1867" />
     <option name="height" value="968" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -162,7 +1322,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,13 +1343,24 @@
             <path>
               <item name="relation" type="b2602c69:ProjectViewProjectNode" />
               <item name="relation" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="relation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="relation" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="relation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="relation" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,16 +1427,16 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="33" width="1870" height="968" extended-state="0" />
+    <frame x="53" y="33" width="1867" height="968" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19857769" sideWeight="0.48287672" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20054795" sideWeight="0.48287672" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32716927" sideWeight="0.50858366" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28636885" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28636885" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32716927" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3127148" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398641" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19009584" sideWeight="0.5171233" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -291,32 +1461,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/userDao/user.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="e#17#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/glide.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/gin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/user/user.go" />
-    <entry file="file://$PROJECT_DIR$/conf/config.yaml.go" />
     <entry file="file://$PROJECT_DIR$/../gopkg.in/yaml.v2/yaml.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -528,13 +1672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logger/logg.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cache/userCache.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -571,18 +1708,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/Response.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/builtin/builtin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="74" column="5" lean-forward="false" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/model/user.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/userLogic/userLogin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="44" column="40" lean-forward="false" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+          <folding>
+            <element signature="e#19#115#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -594,45 +1740,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../web/model/user.go">
+    <entry file="file://$PROJECT_DIR$/util/Response.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="338">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/userDao/user.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="618">
+          <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
           <folding>
             <element signature="e#17#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logic/userLogic/userLogin.go">
+    <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="44" column="40" lean-forward="false" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-          <folding>
-            <element signature="e#19#115#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="384">
+          <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/glide.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        <state relative-caret-position="208">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/info1.log.201809171900">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/info.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logger/logg.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/default_validator.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/io/io.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="77" column="4" lean-forward="false" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handlers/user/userHandler.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="169" column="35" lean-forward="true" selection-start-line="169" selection-start-column="35" selection-end-line="169" selection-end-column="35" />
+        <state relative-caret-position="592">
+          <caret line="175" column="31" lean-forward="false" selection-start-line="175" selection-start-column="31" selection-end-line="175" selection-end-column="31" />
           <folding />
         </state>
       </provider>

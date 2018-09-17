@@ -15,6 +15,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gomodule/redigo/redis"
 	"github.com/sirupsen/logrus"
+	"net/url"
 )
 
 func GetUserById(c *gin.Context) {
@@ -166,10 +167,12 @@ func isSuccess(response util.Response) bool {
 }
 
 func ToCheck(c *gin.Context) {
-	buf := make([]byte,1024)
+	buf := make([]byte,4096)
 	n,_ := c.Request.Body.Read(buf)
 	log := logger.GetLogger()
 	cLog := log.WithFields(logrus.Fields{"Handler": "user"}) //定制化log
-	cLog.Info("RequestParam:", string(buf[0:n]))
+	s,_ := url.QueryUnescape(string(buf[0:n]))
+
+	cLog.Infof("RequestParam:%s", s)
 	c.JSON(http.StatusOK,buf[0:n])
 }
